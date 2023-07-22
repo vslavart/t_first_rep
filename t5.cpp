@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+// buble sort
 void jok(int *b, int n)
 {   
     int m,v,p;
