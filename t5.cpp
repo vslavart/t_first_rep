@@ -2,7 +2,7 @@
 
 using namespace std;
 // buble sort
-void jok(int *b, int n)
+void buble_sort(int *b, int n)
 {   
     int m,v,p;
     for (int i = 0; i < n-1; i++)
@@ -31,7 +31,7 @@ int main()
     int *b = new int [n];
     for (int i = 0; i < n; i++)
         cin >> b[i];
-    jok(b, n);
+    buble_sort(b, n);
     for (int i = 0; i < n; i++)
         cout << b[i] << " ";
 }
