@@ -46,12 +46,7 @@ int main()
     for (int i = 0; i < n; i++)
         cout << b[i] << " ";
 
-<<<<<<< HEAD
  
-=======
-    if( !(b is null) ) delete b;
-
->>>>>>> second
 
     return 0;
 }
