@@ -34,4 +34,7 @@ int main()
     buble_sort(b, n);
     for (int i = 0; i < n; i++)
         cout << b[i] << " ";
+
+    delete b;
+    return 0;
 }
