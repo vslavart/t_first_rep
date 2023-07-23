@@ -24,17 +24,34 @@ void buble_sort(int *b, int n)
     }
 }
 
-int main()
+int iarray_input(int *b)
 {
     int n;
     cin >> n;
     int *b = new int [n];
     for (int i = 0; i < n; i++)
         cin >> b[i];
+
+    return n;
+}
+
+int main()
+{
+    int n;
+    int *b;
+    
+    n = iarray_input(b);
+
     buble_sort(b, n);
     for (int i = 0; i < n; i++)
         cout << b[i] << " ";
 
-    delete b;
+<<<<<<< HEAD
+ 
+=======
+    if( !(b is null) ) delete b;
+
+>>>>>>> second
+
     return 0;
 }
