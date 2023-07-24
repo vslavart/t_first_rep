@@ -48,5 +48,9 @@ int main()
 
  
 
-    return 5 - 2;
+<<<<<<< HEAD
+    return 4;
+=======
+    
+>>>>>>> third
 }
