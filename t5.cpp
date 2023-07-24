@@ -47,10 +47,6 @@ int main()
         cout << b[i] << " ";
 
  
-
-<<<<<<< HEAD
     return 4;
-=======
     
->>>>>>> third
 }
